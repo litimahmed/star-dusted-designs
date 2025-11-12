@@ -9,23 +9,23 @@ import DecorativeBlobs from "@/components/DecorativeBlobs";
 import { toast } from "sonner";
 
 // Import book cover images
-import bookSortingBins from "@/assets/book-sorting-bins.jpg";
+import bookRecyclingHeroes from "@/assets/book-recycling-heroes.jpg";
 import bookEarthHero from "@/assets/book-earth-hero.jpg";
 import bookJungleRecycling from "@/assets/book-jungle-recycling.jpg";
-import bookBottleJourney from "@/assets/book-bottle-journey.jpg";
-import bookCompostMagic from "@/assets/book-compost-magic.jpg";
-import bookPaperFriends from "@/assets/book-paper-friends.jpg";
+import bookOceanRescue from "@/assets/book-ocean-rescue.jpg";
+import bookGardenMagic from "@/assets/book-garden-magic.jpg";
+import bookForestGuardians from "@/assets/book-forest-guardians.jpg";
 
 const Index = () => {
   const books = [
     {
       id: 1,
-      title: "The Sorting Bins Adventure",
-      image: bookSortingBins,
+      title: "Recycling Heroes Unite",
+      image: bookRecyclingHeroes,
       color: "eco-blue",
-      readingTime: "Reading 3 min.",
-      category: "Recycling basics",
-      description: "Join Benny the Bin and his friends as they learn about sorting waste! Discover which items go in each colorful bin and why sorting is so important for our planet.",
+      readingTime: "Reading 5 min.",
+      category: "Superhero adventure",
+      description: "When the city is drowning in waste, three magical recycling bins with special powers team up to save the day! Join the blue, green, and red heroes as they teach everyone the importance of proper sorting and recycling.",
     },
     {
       id: 2,
@@ -47,30 +47,30 @@ const Index = () => {
     },
     {
       id: 4,
-      title: "The Amazing Bottle Journey",
-      image: bookBottleJourney,
+      title: "Ocean Rescue Mission",
+      image: bookOceanRescue,
       color: "eco-blue",
       readingTime: "Reading 5 min.",
-      category: "Plastic recycling",
-      description: "Follow Bella the Bottle on her incredible journey from the recycling bin to becoming something brand new! Learn about the magic of recycling plastic.",
+      category: "Ocean adventure",
+      description: "Captain Splash, the brave bottle hero, embarks on an epic quest to clean the ocean and save marine animals! Discover how plastic recycling protects our seas and transforms waste into wonderful new things.",
     },
     {
       id: 5,
-      title: "Compost Magic",
-      image: bookCompostMagic,
+      title: "The Garden Guardians",
+      image: bookGardenMagic,
       color: "eco-orange",
       readingTime: "Reading 4 min.",
-      category: "Organic waste",
-      description: "Discover the amazing world of composting with Coco the Carrot! Find out how food scraps transform into rich soil that helps plants grow strong and healthy.",
+      category: "Nature magic",
+      description: "Enter an enchanted garden where food scraps magically transform into golden soil! Watch as the Garden Guardians show how composting creates life and helps beautiful flowers and vegetables grow.",
     },
     {
       id: 6,
-      title: "Paper Friends Forever",
-      image: bookPaperFriends,
-      color: "eco-purple",
-      readingTime: "Reading 3 min.",
-      category: "Paper recycling",
-      description: "Meet Paige the Paper and her friends who show how recycling paper saves trees! Learn fun facts about paper recycling and how to reuse paper in creative ways.",
+      title: "Forest Protectors",
+      image: bookForestGuardians,
+      color: "eco-green",
+      readingTime: "Reading 4 min.",
+      category: "Forest defenders",
+      description: "Join the brave Paper Warriors on their noble quest to protect the ancient forests! Learn how recycling paper saves thousands of trees and discover creative ways to give paper a second life.",
     },
   ];
 
